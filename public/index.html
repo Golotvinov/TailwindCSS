@@ -225,20 +225,20 @@
 
     <section class="container mx-auto sm:px-4" id="kontaky">
         <h2 class="text-center text-6xl font-light py-12">Kontakty</h2>
-        <form class="flex flex-wrap flex-col g-3 sm:py-12 px-3 md:flex-col lg:flex-row">
+        <form class="flex flex-wrap flex-col g-3 sm:py-12 px-3 md:flex-row ">
             <div class="md:w-1/2 px-4">
                 <label for="inputName" class="form-label">Jméno</label>
                 <input type="text"
                     class="block appearance-none w-full mt-3 py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
                     id="inputName">
             </div>
-            <div class="md:w-1/2 px-4 mt-3">
+            <div class="md:w-1/2 px-4 mt-3 md:mt-0">
                 <label for="inputEmail" class="form-label">Emailová adresa</label>
                 <input type="email"
                     class="block appearance-none w-full mt-3 py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
                     id="inputEmail">
             </div>
-            <div class="md:w-1/2 px-4 mt-3">
+            <div class="md:w-1/2 px-4 mt-3 md:min-w-full">
                 <label for="inputAddress" class="form-label">Zpráva</label>
                 <textarea
                     class="block mt-3 px-4 w-full mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
@@ -254,7 +254,7 @@
 
     <footer class="p-6 bg-gray-800 text-white mt-4">
         <div class="container mx-auto sm:px-4">
-            <div class="flex flex-wrap items-center justify-center lg:justify-start">
+            <div class="flex flex-wrap items-center justify-center md:justify-between">
                 <a href="/" class="flex items-center mb-3 md:mb-0 md:me-auto text-gray-900 text-decoration-none">
                     <svg version="1.1" id="footerLogo" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="40"
                         viewBox="0 0 533.5 368.9" xml:space="preserve">
