@@ -46,21 +46,21 @@
 
     <section class="pt-2 my-5 text-center">
         <h1 class="text-6xl font-bold px-5 py-7">Lorem Ipsum s.r.o.</h1>
-        <div class="lg:w-1/2 pr-4 pl-4 mx-auto flex flex-col">
-            <p class="text-xl font-light mb-4 lg:px-1 px-3">Toto je verze webové stránky fiktivní společnosti Lorem
+        <div class="lg:w-1/2 pr-4 pl-4 mx-auto flex flex-col lg:flex-row lg:px-0 lg:flex-wrap lg:justify-center">
+            <p class="text-xl font-light mb-4 lg:px-1 px-3 lg:min-w-full">Toto je verze webové stránky fiktivní společnosti Lorem
                 Ipsum s.r.o.
                 založena na
                 frameworku Bootstrap. Zde, v tzv. Hero sekci, je prostor pro hlavní nadpis a pro stručný popis činnosti.
                 Neměly by se však zde objevovat dlouhé odstavce.
             </p>
-            <p class="pb-4">Použitá verze Tailwind CSS: <span class="text-teal-600">2.2.4</span>
+            <p class="pb-4 lg:min-w-full">Použitá verze Tailwind CSS: <span class="text-teal-600">2.2.4</span>
             </p>
             <a href="https://tailwindcss.com/" target="_blank"><button type="button"
-                    class="inline-block align-middle text-center select-none font-normal whitespace-no-wrap rounded  no-underline bg-cyan-500 text-white hover:bg-cyan-600 py-4 mb-2 px-4 leading-tight text-xl sm:me-4">Tailwind
+                    class="inline-block align-middle text-center select-none font-normal whitespace-no-wrap rounded  no-underline bg-cyan-500 text-white hover:bg-cyan-600 py-4 mb-2 px-4 leading-tight text-xl sm:me-4 lg:mx-auto lg:mr-5">Tailwind
                     CSS
                     Home</button></a>
             <a href="http://it.pedf.cuni.cz/" target="_blank"><button type="button"
-                    class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded  no-underline text-gray-500 border-gray-500 hover:text-white bg-white hover:bg-gray-500 py-3 mb-12 leading-tight text-xl px-4">PeDF
+                    class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded  no-underline text-gray-500 border-gray-500 hover:text-white bg-white hover:bg-gray-500 py-4 mb-12 leading-tight text-xl px-4">PeDF
                     KITTV</button></a>
         </div>
         <div class="overflow-hidden" style="max-height: 30vh;">
@@ -122,8 +122,8 @@
     <section class="container mx-auto sm:px-4" id="portfolio">
         <h2 class="text-center text-6xl font-light py-12">Portfolio</h2>
         <div class="py-8 px-4">
-            <div class="flex flex-wrap flex-col g-3">
-                <div class="relative flex-grow max-w-full flex-1 px-4">
+            <div class="flex flex-wrap flex-col g-3 lg:flex-row">
+                <div class="relative flex-grow max-w-full flex-1 px-4 lg:px-2">
                     <div
                         class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 shadow-md mb-7">
                         <img src="img/portfolio1.jpg" alt="Preview obrázek" width="100%" height="225" class="h-60">
@@ -151,8 +151,8 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-wrap flex-col g-3">
-                <div class="relative flex-grow max-w-full flex-1 px-4">
+            <div class="flex flex-wrap flex-col g-3 lg:flex-row">
+                <div class="relative flex-grow max-w-full flex-1 px-4 lg:px-2">
                     <div
                         class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 shadow-md mb-7">
                         <img src="img/portfolio4.jpg" alt="Preview obrázek" width="100%" height="225" class="h-60">
@@ -185,7 +185,7 @@
 
     <section class="container mx-auto sm:px-4" id="reference">
         <h2 class="text-center text-6xl font-light py-12">Reference</h2>
-        <div class="flex flex-wrap flex-col">
+        <div class="flex flex-wrap flex-col lg:flex-row">
             <div class="relative flex-grow max-w-full flex-1 px-4 md:py-12 pb-5">
                 <div class="relative flex flex-col min-w-0 rounded break-words shadow hover:shadow-xl">
                     <div class="flex-auto p-6 text-center shadow-sm">
@@ -225,7 +225,7 @@
 
     <section class="container mx-auto sm:px-4" id="kontaky">
         <h2 class="text-center text-6xl font-light py-12">Kontakty</h2>
-        <form class="flex flex-wrap flex-col g-3 sm:py-12 px-3">
+        <form class="flex flex-wrap flex-col g-3 sm:py-12 px-3 md:flex-col lg:flex-row">
             <div class="md:w-1/2 px-4">
                 <label for="inputName" class="form-label">Jméno</label>
                 <input type="text"
